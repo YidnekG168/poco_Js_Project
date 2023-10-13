@@ -1,0 +1,78 @@
+body{
+ display: flex;
+ margin: auto;
+ width: 100%;
+ height: 100vh;
+}
+
+main {
+    flex: 4;
+}
+/*NavBar*/
+
+.NavBar{
+    display: inline-flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;  
+}
+
+.NavBarSection{
+    position: fixed;
+}
+
+.NavBar img {
+    border-radius: 100%;
+}
+
+
+.NavBar li {
+    list-style: none;
+    padding: 2em;
+}
+
+.NavBar li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*Home*/
+.Main-home{
+    background-color: blueviolet;
+    display: flex;
+    flex: 4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Participants*/
+#Main-Participants{
+    display: grid;
+    padding: 5rem 2rem;
+    width: 90%;
+    text-align: center;
+    height: 79vh;
+}
+
+#Main-Participants ul{
+    grid-template-columns: 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+    text-align: center;
+}
+
+#Main-Participants ul *{
+    display: inline-flex;
+    margin: 1em;
+}
+
+#Main-Participants li img{
+    width: 10em;
+    margin: 1em;
+}
+
+#Main-home li div {
+    display: none;
+}
